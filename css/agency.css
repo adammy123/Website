@@ -515,13 +515,7 @@ ul.social-buttons {
     ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
       background-color: #fed136; }
 
-.text-designer {
-  color: #0000ff !important; }
-
-.text-engineer {
-  color: #ff0000 !important; }
-
-.text-adventurer {
+.text-primary {
   color: #fed136 !important; }
 
 .btn-primary {
