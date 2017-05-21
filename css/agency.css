@@ -242,8 +242,8 @@ header.masthead {
     font-style: italic;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   .portfolio-modal .modal-content ul.list-inline {
-    margin-top: 0;
-    font-size: 12px; }
+    margin: 0 0;
+    font-size: 13px; }
   .portfolio-modal .modal-content img {
     margin-bottom: 0px; }
   .portfolio-modal .modal-content button {
