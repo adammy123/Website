@@ -226,7 +226,7 @@ header.masthead {
 .portfolio-modal .modal-content {
   min-height: 100%;
   padding: 100px 0;
-  text-align: center;
+  text-align: left;
   border: none;
   border-radius: 0;
   background-clip: border-box;
@@ -240,13 +240,13 @@ header.masthead {
   .portfolio-modal .modal-content p.item-intro {
     font-size: 16px;
     font-style: italic;
-    margin: 20px 0 30px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
-    margin-bottom: 30px; }
+    font-size: 12px;
+    font-family: avenir; }
   .portfolio-modal .modal-content img {
-    margin-bottom: 30px; }
+    margin-bottom: 0px; }
   .portfolio-modal .modal-content button {
     cursor: pointer; }
 
