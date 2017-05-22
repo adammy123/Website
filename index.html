@@ -23,6 +23,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/agency.css" rel="stylesheet">
+    <link href="css/full-slider.css" rel="stylesheet">
 
     <!-- Temporary navbar container fix -->
     <style>
@@ -34,6 +35,12 @@
         nav > .container {
             width: 100%;
         }
+    }
+
+    .carousel-item.active,
+    .carousel-item-next,
+    .carousel-item-prev {
+        display: block;
     }
     </style>
 
@@ -204,7 +211,62 @@
                                                               Oh, and I love F.R.I.E.N.D.S.</p>
                         </div>
                         <div class="col-md-8">
-                          <img src="img/about/rinjani 2.jpg" style="max-width: 100%;">
+                          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                              <ol class="carousel-indicators">
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                              </ol>
+                              <div class="carousel-inner" role="listbox">
+                                  <div class="carousel-item active" style="background-image: url('img/about/rinjani.jpg')">
+                                      <div class="carousel-caption d-none d-md-block">
+                                          <h3>First Slide</h3>
+                                          <p>This is a description for the first slide.</p>
+                                      </div>
+                                  </div>
+                                  <div class="carousel-item" style="background-image: url('img/about/soccer.jpg')">
+                                      <div class="carousel-caption d-none d-md-block">
+                                          <h3>Second Slide</h3>
+                                          <p>This is a description for the second slide.</p>
+                                      </div>
+                                  </div>
+                                  <div class="carousel-item" style="background-image: url('img/about/bicycle.jpg')">
+                                      <div class="carousel-caption d-none d-md-block">
+                                          <h3>Third Slide</h3>
+                                          <p>This is a description for the third slide.</p>
+                                      </div>
+                                  </div>
+                                  <div class="carousel-item" style="background-image: url('img/about/dance.jpg')">
+                                      <div class="carousel-caption d-none d-md-block">
+                                          <h3>Third Slide</h3>
+                                          <p>This is a description for the third slide.</p>
+                                      </div>
+                                  </div>
+                                  <div class="carousel-item" style="background-image: url('img/about/fun.jpg')">
+                                      <div class="carousel-caption d-none d-md-block">
+                                          <h3>Third Slide</h3>
+                                          <p>This is a description for the third slide.</p>
+                                      </div>
+                                  </div>
+                                  <div class="carousel-item" style="background-image: url('img/about/pose.jpg')">
+                                      <div class="carousel-caption d-none d-md-block">
+                                          <h3>Third Slide</h3>
+                                          <p>This is a description for the third slide.</p>
+                                      </div>
+                                  </div>
+                              </div>
+                              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                              </a>
+                          </div>
                         </div>
                     </div>
                 </div>
