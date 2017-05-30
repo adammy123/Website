@@ -482,7 +482,7 @@ footer {
   text-align: center;
   background-color: black;
   color: white;}
-  footer span.copyright {
+  footer span.copyright{
     font-size: 90%;
     line-height: 40px;
     text-transform: none;
